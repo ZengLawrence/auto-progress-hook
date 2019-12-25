@@ -1,0 +1,38 @@
+{
+  "name": "auto-progress-hook",
+  "version": "1.0.0",
+  "description": "React hook for value and related control functions for displaying Progress component, which can progress by itself.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengLawrence/auto-progress-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hook"
+  ],
+  "author": "Lawrence Zeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZengLawrence/auto-progress-hook/issues"
+  },
+  "homepage": "https://github.com/ZengLawrence/auto-progress-hook#readme",
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/jest": "^24.0.24",
+    "@types/react": "^16.9.17",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
