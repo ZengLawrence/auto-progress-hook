@@ -12,7 +12,7 @@ test('initialize hook returns [number, function]', () => {
   expect(setStart).toBeDefined();
 });
 
-test('set start to true to false should return change value to 100', () => {
+test('change start from true to false should return change value to 100', () => {
   const { result } = renderHook(() => useAutoProgressEffect(true));
 
   {
